@@ -679,6 +679,7 @@ label {
 .product-selection__button:hover {
   background-color: #F16D7F;
   color: #fff;
+  transition: 0.3s;
 }
 .product-selection__info {
   display: flex;
@@ -714,6 +715,11 @@ label {
   background-color: #fff;
   border: 1px solid #A4A4A4;
   cursor: pointer;
+}
+.product-selection__info__address-submit:hover {
+  background-color: #F16D7F;
+  color: #fff;
+  transition: 0.3s;
 }
 .product-selection__purchase {
   display: flex;
